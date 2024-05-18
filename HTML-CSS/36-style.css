@@ -1,0 +1,30 @@
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    border-radius: 5%;
+    animation: colorChange;
+    animation-duration: 1s;
+}
+@keyframes slideLeft{
+    from{transform: translateX(300%);}
+}
+@keyframes slideRight{
+    to{transform: translateX(300%);}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%);}
+}
+@keyframes slideDown{
+    to{transform: translateY(300%);}
+}
+@keyframes grow{
+    100%{transform: scale(2,2);}
+}
+@keyframes colorChange{
+    0%{background-color: red;}
+    0%{background-color: blanchedalmond;}
+   
+}

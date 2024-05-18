@@ -1,0 +1,15 @@
+.container{
+    background-color: rgb(117, 113, 113);
+    height: 100vh;
+
+}
+.box{
+    background-color: wheat
+    ;
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+}
